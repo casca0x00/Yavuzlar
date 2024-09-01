@@ -26,6 +26,7 @@ body {
     font-size:20px;
     background-color: #ff5c5c;
     color: white;
+    border: none;
     border-radius: 12px;
     transition: background-color 0.5s;
 }
@@ -179,4 +180,3 @@ body {
 .incorrect{
     background: #f37f7f;
 }
-s
