@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sorular</title>
+</head>
+<body>
+    <div class="soruEkleme">
+        <h2>Soru Ekle</h2>
+        <form class="soruGirme">
+            <input type="text" id="soru" placeholder="Soru" required>
+            <input type="text" id="aSikki" placeholder="A Şıkkı" required>
+            <input type="text" id="bSikki" placeholder="B Şıkkı" required>
+            <input type="text" id="cSikki" placeholder="C Şıkkı" required>
+            <input type="text" id="dSikki" placeholder="D Şıkkı" required>
+            <div class="dogruSecenek">
+                <label for="dogruSecenek">Doğru Şık:</label>
+                <select id="dogruSecenek">
+                    <option value="aSikki">A Şıkkı</option>
+                    <option value="bSikki">B Şıkkı</option>
+                    <option value="cSikki">C Şıkkı</option>
+                    <option value="dSikki">D Şıkkı</option>
+                </select>
+            </div>
+            <select id="soruZorluguSec">
+                <option value="Kolay">Kolay</option>
+                <option value="Orta">Orta</option>
+                <option value="Zor">Zor</option>
+            </select>
+            <button type="submit">Soru Ekle</button>
+        </form>
+        
+        <div class="butonSinav">
+            <a href="sinav.html"><button id="test">Teste başla</button></a>
+        </div>
+           
+</body>
+</html>
